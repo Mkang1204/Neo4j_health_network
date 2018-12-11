@@ -19,5 +19,12 @@ merge (p:personnel {id:personnel_id, a1:act_cat1, a2:act_cat2, a3:act_cat3,s:sta
 merge (e:encounter {id:enc_id})
 merge (p)-[w:works_on]-(e)
 return w
+       
+--test data - CA population
+load csv with headers from "file:///CA_DRU_proj_2010-2060.csv" as csv
+with distinct csv.`County Code` as ID, csv.`County Name` as Name, csv.`Age` as age,csv.`Population` as pop
+match (c:County {id:ID, name:Name})
+match (p:pop)
+merge (p)-[r:for_year]-(c)
 
        
