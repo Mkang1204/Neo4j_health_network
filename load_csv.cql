@@ -27,4 +27,9 @@ match (c:County {id:ID, name:Name})
 match (p:pop)
 merge (p)-[r:for_year]-(c)
 
+--unwind examples/ aplit()
+       LOAD CSV WITH HEADERS FROM 'file:///data/locations.csv' AS line WITH split(line.locations,";") as locations, line.title as title UNWIND locations AS location
+	MERGE (x:Location {name:location})
+   	 MERGE (m:Movie {title:title})
+   	 MERGE (m)-[:FILMED_IN]->(x)
        
