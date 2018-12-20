@@ -70,4 +70,75 @@ and `subset_med_17`.Sequence = `GraphDB`.`neuro_providers_activities_2018-11-14`
 -- Based on the query result, I found that there are 1653 activities the providers acted on a certain encounter meet the subset of 'drugs' critieria
 -- Next step output the providers and encpunters id and determine the sub-network
 
+select provider_pairs12_spors_11_08.prov1, provider_pairs12_spors_11_08.prov2
+from found_subset_id_1218 join provider_pairs12_spors_11_08 on found_subset_id_1218.action_personnel_id_x = provider_pairs12_spors_11_08.prov1; -- doesn't work as lack of provider id info
+
+
+-- find all the corresponding pairs 
+-- select count(*)
+select `GraphDB`.`complete_pairs_enc_1219`.enc_id_x, prov1, prov2
+from `GraphDB`.`found_subset_id_1218` right join `GraphDB`.`complete_pairs_enc_1219`
+on `GraphDB`.`complete_pairs_enc_1219`.enc_id_x = `GraphDB`.`found_subset_id_1218`.enc_id_x 
+where `GraphDB`.`found_subset_id_1218`.action_personnel_id_x in (`GraphDB`.`complete_pairs_enc_1219`.`prov1`, `GraphDB`.`complete_pairs_enc_1219`.`prov2`); -- returns more than 50,000 rows
+
+select `GraphDB`.`neuro_providers_activities_2018-11-14`.action_personnel_id_x, `GraphDB`.`found_subset_id_1218`.enc_id_x
+-- select distinct count(*)
+from `GraphDB`.`neuro_providers_activities_2018-11-14` right join `GraphDB`.`found_subset_id_1218`
+on `GraphDB`.`neuro_providers_activities_2018-11-14`.action_personnel_id_x = `GraphDB`.`found_subset_id_1218`.action_personnel_id_x 
+where `GraphDB`.`neuro_providers_activities_2018-11-14`.enc_id_x = `GraphDB`.`found_subset_id_1218`.enc_id_x and found_subset_id_1218.activity_cat3 = `neuro_providers_activities_2018-11-14`.activity_cat3;
+
+
+-- find the complement subset for drugs_subnetwork
+
+-- mysql doesn't support minus 
+select `GraphDB`.`neuro_providers_activities_2018-11-14`.enc_id_x, `GraphDB`.`neuro_providers_activities_2018-11-14`.action_personnel_id_x
+from `GraphDB`.`neuro_providers_activities_2018-11-14`
+
+MINUS
+
+select `GraphDB`.`neuro_providers_activities_2018-11-14`.enc_id_x, `GraphDB`.`neuro_providers_activities_2018-11-14`.action_personnel_id_x
+FROM `GraphDB`.`subset_drugs`;
+
+-- change to not in to find the subset
+
+select `GraphDB`.`neuro_providers_activities_2018-11-14`.enc_id_x, `GraphDB`.`neuro_providers_activities_2018-11-14`.action_personnel_id_x
+from `GraphDB`.`neuro_providers_activities_2018-11-14` where (enc_id_x,  action_personnel_id_x) not in 
+(select enc_id_x, action_personnel_id_x
+FROM `GraphDB`.`subset_drugs`);
+
+
+SELECT `subset_drugs`.`enc_id_x`,
+    `subset_drugs`.`action_personnel_id_x`,
+    `subset_drugs`.`cards_freq`,
+    `subset_drugs`.`case_number_x`
+FROM `GraphDB`.`subset_drugs`;
+
+--  see what the table is like
+SELECT * FROM GraphDB.complete_pairs_enc_1219;
+
+-- select the provider pairs according to the provider_encounter pairss
+select  `GraphDB`.`complete_pairs_enc_1219`.prov1, `GraphDB`.`complete_pairs_enc_1219`.prov2, `GraphDB`.`complete_pairs_enc_1219`.spor_actual
+from `GraphDB`.`complete_pairs_enc_1219` where (enc_id_x,  prov1) not in 
+(select enc_id_x, action_personnel_id_x
+FROM `GraphDB`.`subset_drugs`);
+
+
+-- select the provider pairs that are 'abnormal'
+select  `GraphDB`.`complete_pairs_enc_1219`.prov1, `GraphDB`.`complete_pairs_enc_1219`.prov2, `GraphDB`.`complete_pairs_enc_1219`.spor_actual
+from `GraphDB`.`complete_pairs_enc_1219` where (enc_id_x,  prov1) in 
+(select enc_id_x, action_personnel_id_x
+FROM `GraphDB`.`subset_drugs`);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
