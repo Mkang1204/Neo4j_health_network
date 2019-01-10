@@ -1,3 +1,16 @@
+-- Data visualization for the neuro_icu providers:
+-- preparing data with mysql:
+-- get from Andrew: sub_network of the drugs prov_enc pairs
+-- need to find difference of the drugs & non_drugs network
+-- analysis to do find the two networks (prov_enc)
+-- & the two networks prov_pairs 
+
+-- major concern is the ID/combination primary key is not unique -> the complementary dataset(non_drugs_prov) is not accurate 
+
+
+
+
+
 SELECT * FROM GraphDB.`neuro_providers_activities_2018-11-14`;
 
 select distinct count(case_number_x )
