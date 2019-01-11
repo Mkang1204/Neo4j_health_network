@@ -143,6 +143,17 @@ from `GraphDB`.`complete_pairs_enc_1219` where (enc_id_x,  prov1) in
 FROM `GraphDB`.`subset_drugs`);
 
 
+-- notes on further discovery - 2019-01-10
+-- At the mock study section in CHS, the group made several key points. 
+-- First, it's really interesting, super innovative, and potentially really important. 
+-- Second, they don't quite buy it - the results are SO good, and some of the individuals 
+-- are important in the network but it's hard to see how they would change outcomes (e.g., staff, radiology technicians). 
+-- The mock study section would be a lot more convinced if we could show the network analysis agreed with something already known about effective teams,
+-- e.g., if high-scoring pairs/teams were more experienced/certified/etc., or if we could show they performed actions in the EHR known to predict outcomes 
+-- (e.g., prescribed a lot of phenytoin, transfused platelets). 
+-- That level of granularity would gave a lot more _prima facie_ validity to the networks.
+
+
 
 
 
