@@ -1,0 +1,25 @@
+references: 
+1. 在人工智能时代，MATLAB 还是曾经的那个“高级计算器”么？
+https://www.leiphone.com/news/201704/zzQfGKhv2SZJJ3gH.html?agt=2
+2. interview
+https://career.guru99.com/top-20-matlab-interview-questions/
+
+
+Goal:
+1. to get more and more people use Mathworks product
+2. build up the community and platform
+
+Research Summary
+Pros:
+1. commercial software - reliable
+2. easy to start 
+3. well supported
+4. 
+
+
+
+Cons:
+1. not open source
+2. not widely used by researchers and scientists (in bioinformatics field)
+3. I/O not very well - Python, import export
+4. Matlab Cloud
