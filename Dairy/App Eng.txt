@@ -37,3 +37,21 @@ MathWorks participates in E-Verify. View the E-Verify posters here.
 Job: 20099-LLAN
 Location: US-CA-Santa Clara
 Department: Technical Sales Engineering
+
+
+
+
+
+
+
+
+
+Technical Sales Engineering
+These teams work on in-house projects and with customers worldwide to apply MATLAB and Simulink to real-world challenges. We hire graduates with Bachelor's, Master's, or PhD's in engineering, science, and computer science programs to work on these teams:
+
+Application Engineering
+Consulting
+Pre-Sales Engineering
+Post-Sales Engineering
+Training Services
+Some roles are integral to the sales process, and others help after the point of sale, with technical training and ensuring the successful adoption of MathWorks products in customers' research, exploration, design, and development processes.
