@@ -3,6 +3,8 @@ references:
 https://www.leiphone.com/news/201704/zzQfGKhv2SZJJ3gH.html?agt=2
 2. interview
 https://career.guru99.com/top-20-matlab-interview-questions/
+https://stackoverflow.com/questions/2501133/matlab-interview-questions
+3. GitHub - Mathworks on Cloud
 
 
 Goal:
