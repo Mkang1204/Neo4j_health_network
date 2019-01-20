@@ -10,6 +10,8 @@ https://github.com/mathworks-ref-arch
 http://www.techilatechnologies.com/product/?y=0dECi6F5S9o
 5. matlab online 2018
 https://matlab.mathworks.com/
+6. Machine Learning 
+https://developers.google.com/machine-learning/practica/image-classification/convolutional-neural-networks
 
 
 Goal:
