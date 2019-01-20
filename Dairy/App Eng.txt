@@ -1,0 +1,39 @@
+Senior Application Engineer- IT Systems
+Job Summary
+MathWorks is seeking a highly motivated individual with technical experience and interest in integrating MathWorks products with enterprise IT systems. By deeply engaging and partnering with customers in this area, you will influence the way they develop and verify their systems using MathWorks products. The work will involve recommending technical approaches using the existing products and developing proof of concept software solutions for potential future products. Travel can be expected anywhere from 5% to 30%, generally throughout US to EMEA and Asia.
+
+Responsibilities
+Establish instant credibility in front of customers by using your industry experience to integrate MathWorks products with enterprise IT systems
+Lead technical projects with key enterprise customers 
+Develop software reference architectures and extensions to MathWorks products to meet customer needs
+Work closely with internal sales and other customer-facing staff to provide technical guidance for successful adoption of MathWorks products
+Provide feedback to Development on MathWorks products based on customer interactions/requirements.
+Minimum Qualifications
+A bachelor's degree and 7 years of professional work experience (or a master's degree and 5 years of professional work experience, or a PhD degree) is required.
+Additional Qualifications
+Programming knowledge of one or more of: Java, JavaScript, Python, SQL, C/C++.
+Knowledge of MATLAB and Simulink is a plus
+Broad interest in IT systems integration. Domains of particular interest are:
+Big Data, e.g. Hadoop & Spark.
+Cloud, e.g. Azure, AWS & GCP
+Messaging and IoT related technologies, e.g. Kafka & IoT Hub.
+Databases, e.g. MongoDB, SQL Server & Cassandra
+Visualization, e.g. Tableau, Power BI & Spotfire.
+Customer-facing experience
+Excellent spoken and written English communication skills
+Why MathWorks?
+It’s the chance to collaborate with bright, passionate people. It’s contributing to software products that make a difference in the world. And it’s being part of a company with an incredible commitment to doing the right thing – for each individual, our customers, and the local community.
+
+MathWorks develops MATLAB and Simulink, the leading technical computing software used by engineers and scientists. The company employs 4000 people in 16 countries, with headquarters in Natick, Massachusetts, U.S.A. MathWorks is privately held and has been profitable every year since its founding in 1984.
+
+Contact us if you need reasonable accommodation because of a disability in order to apply for a position. 
+
+The MathWorks, Inc. is an equal opportunity employer. We evaluate qualified applicants without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, and other protected characteristics. View The EEO is the Law poster and its supplement. 
+
+The pay transparency policy is available here. 
+
+MathWorks participates in E-Verify. View the E-Verify posters here.
+
+Job: 20099-LLAN
+Location: US-CA-Santa Clara
+Department: Technical Sales Engineering
