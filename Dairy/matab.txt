@@ -5,6 +5,11 @@ https://www.leiphone.com/news/201704/zzQfGKhv2SZJJ3gH.html?agt=2
 https://career.guru99.com/top-20-matlab-interview-questions/
 https://stackoverflow.com/questions/2501133/matlab-interview-questions
 3. GitHub - Mathworks on Cloud
+https://github.com/mathworks-ref-arch
+4. Matlab on AWS EC2 and Google cloud
+http://www.techilatechnologies.com/product/?y=0dECi6F5S9o
+5. matlab online 2018
+https://matlab.mathworks.com/
 
 
 Goal:
