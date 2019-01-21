@@ -1,0 +1,9 @@
+1. NN and DL
+http://neuralnetworksanddeeplearning.com/chap3.html
+2. Google glossary
+https://developers.google.cn/machine-learning/glossary/?hl=zh-CN#neural_network
+3. ML interview Q&A
+https://medium.com/subhrajit-roy/cracking-the-machine-learning-interview-1d8c5bb752d8
+
+4. TOP COMPANIES LIST
+https://www.linkedin.com/pulse/linkedin-top-companies-2018-where-us-wants-work-now-daniel-roth/
