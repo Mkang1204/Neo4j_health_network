@@ -1,0 +1,2 @@
+1. Neo4j Plugins problem
+https://stackoverflow.com/questions/48773505/neo4j-install-apoc-and-graph-algorithms-neo-clienterror-procedure-procedureregis
