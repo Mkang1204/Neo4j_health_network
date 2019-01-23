@@ -7,3 +7,7 @@ https://medium.com/subhrajit-roy/cracking-the-machine-learning-interview-1d8c5bb
 
 4. TOP COMPANIES LIST
 https://www.linkedin.com/pulse/linkedin-top-companies-2018-where-us-wants-work-now-daniel-roth/
+
+
+5. Python ApI for CNTK
+https://cntk.ai/pythondocs/CNTK_103A_MNIST_DataLoader.html
