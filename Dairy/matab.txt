@@ -32,3 +32,14 @@ Cons:
 2. not widely used by researchers and scientists (in bioinformatics field)
 3. I/O not very well - Python, import export
 4. Matlab Cloud
+
+
+
+To do list:
+1. 一亩三分地 - 曼斯沃克应用工程师 - 信息系统
+2. 豆瓣经验
+3. 面试问题集锦 - Matlab, Simulink, 
+4. 简历
+5. 自我简介
+6. 为什么这个公司，这个职位
+7. 
