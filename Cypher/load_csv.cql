@@ -26,6 +26,13 @@ with distinct csv.`County Code` as ID, csv.`County Name` as Name, csv.`Age` as a
 match (c:County {id:ID, name:Name})
 match (p:pop)
 merge (p)-[r:for_year]-(c)
+       
+       
+-- filter data with high SPOR connections
+match p = ()-[c:COLLABORATED_WITH]-()
+with avg(c.s) as avg, p
+       return p
+       where avg > 1.1
 
 
        
