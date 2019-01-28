@@ -29,11 +29,7 @@ It’s the chance to collaborate with bright, passionate people. It’s contribu
 
 MathWorks develops MATLAB and Simulink, the leading technical computing software used by engineers and scientists. The company employs 4000 people in 16 countries, with headquarters in Natick, Massachusetts, U.S.A. MathWorks is privately held and has been profitable every year since its founding in 1984.
 
-Contact us if you need reasonable accommodation because of a disability in order to apply for a position. 
 
-The MathWorks, Inc. is an equal opportunity employer. We evaluate qualified applicants without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, and other protected characteristics. View The EEO is the Law poster and its supplement. 
-
-The pay transparency policy is available here. 
 
 MathWorks participates in E-Verify. View the E-Verify posters here.
 
@@ -42,8 +38,14 @@ Location: US-CA-Santa Clara
 Department: Technical Sales Engineering
 
 
+## Enterprise & IT systems - solutions
 
-
+MATLAB® code is production ready and can be securely deployed and integrated with enterprise IT systems, data sources, and operational technologies. IT can partner with engineering teams to:
+Run reliable, secure, and scalable production applications on Windows® and Linux®, either on-premise or on public clouds like AWS® and Microsoft® Azure®.
+Use industry-standard security mechanisms to authenticate, grant access to, and encrypt your data. 
+Integrate directly to existing systems and data, including modern analytics systems like Tableau®, TIBCO® Spotfire®, and Power BI.
+Align with existing DevOps workflows and tools, and enable engineers to self-deploy their models, algorithms, and applications to production systems without having to recode.
+Leverage prebuilt, industry-specific MATLAB and Simulink toolboxes, so users can get started fast.
 
 
 
