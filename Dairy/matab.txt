@@ -60,3 +60,21 @@ Whatever your job, your unique strengths will be fully engaged and you will be s
 Our goal is to change the world by accelerating the pace of discovery, innovation, development, and learning in engineering and science. Bring your curiosity, drive, and energy – come work with us.
 
 
+
+Mathworks application engineer phone interview - behavior
+
+manager很详细的介绍了role的职责和部门的情况，大概讲了有十分钟。
+background 问题：
+1. what's the most appealing part of the job
+2. Do you have customer facing history (internal/external)
+3. Can you accept traveling 30-40%
+4. do you have offer now? or just started the application status
+5. experience with Python
+6. with MATLAB
+7. data analysis experience
+差不多这些，但愿对大家有所帮助吧
+
+
+
+
+
