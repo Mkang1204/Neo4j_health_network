@@ -128,11 +128,29 @@
 故事的主角真的是天地间最最纯真的孩子了，可能就连上帝也看不下去，不想让他在人间吃这么多苦了，所以就把他带走了吧。
 相比之下，故事里的状元的同学，虽然学术方面成就肯定也不差，但是应该是典型的精英利己主义者罢了。
 反观自己，似乎也有一些
- 
+
+2019/01/30 腊月二十五
+今天真的是有纪念意义的一天呢，因为芝伯利亚的气温直逼零下三十度，已经甩出北极十几条街了，而且比南极还要冷，所以如果今天你在芝加哥的话，那真的是省了一张前往南极的票了。
+如果在室外将滚烫的热水撒向天空，就会看见美丽的水滴炸弹，像是白孔雀的羽衣一样展开着，在阳光的映照下格外美丽。
+
+2019/01/31 腊月二十六
+今天我的大馋猫去旧金山的公司面试了，我一个人在家，有些小激动也有些失落，还好他两天就回家了，这是自己很好的成长期，珍惜吧～
+
+The whole dataset is 389 providers and 1610 pairs (collaboration number). It was filtered by 25/125 shared encounters from the original dataset 
+with 1002 providers and 34700+ pairs. The score of pairs are changed into integers and loaded as weight, and the single providers are loaded into Gephi as nodes.
+The layout of the nodes and edges in the figure were implemented by a 3-step-process. First, we applied the Force Atlas layout. It is a force-detected algorithm
+that considers edge weights to determine the strength of a relationship between 2 connected nodes. Then we applied the Fruchterman Reingold layout. It is an algorithm 
 
 
+Reference 
+1. 
+2. Fruchterman, T. M. J., & Reingold, E. M. (1991). Graph Drawing by Force-Directed Placement. Software: Practice and Experience, 21(11)
 
 
+Three places to be confirmed
+1. the numbers occurred in the paragraph especially the whole dataset
+2. whether to include the detailed description of the 2 algorithms
+3. 
 
 
 
