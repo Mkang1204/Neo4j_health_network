@@ -11,3 +11,6 @@ https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-networ
 3. Mimic Database3
 https://physionet.org
 https://physionet.org/works/MIMICIIIClinicalDatabase/files/
+
+4. ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098679
