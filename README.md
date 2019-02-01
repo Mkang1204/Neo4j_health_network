@@ -17,3 +17,10 @@ https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098679
 
 5. Visualizing collaborative electronic health record usage for hospitalized patients with heart failure 
 https://academic.oup.com/jamia/article/22/2/299/696891
+
+6. Data Science playground
+https://www.kaggle.com/
+
+7. Slerm?
+
+8. OMIM
