@@ -9,9 +9,9 @@ https://neo4j.com/blog/data-profiling-holistic-view-neo4j/
 https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/
 
 3. Mimic Database3
-https://physionet.org
-https://physionet.org/works/MIMICIIIClinicalDatabase/files/
-Schema
+https://physionet.org\
+https://physionet.org/works/MIMICIIIClinicalDatabase/files/\
+Schema\
 https://mit-lcp.github.io/mimic-schema-spy/tables/admissions.html
 
 4. ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software
