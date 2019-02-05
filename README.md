@@ -30,4 +30,5 @@ https://www.kaggle.com/
 9. Research Day Poster - DD for abstract - March 8th/ day - April 5th \
 https://www.feinberg.northwestern.edu/researchday/showItem.php?id=162276 
 
-10. 
+10. Azure storage and Sql database
+https://social.technet.microsoft.com/wiki/contents/articles/52061.t-sql-bulk-insert-azure-csv-blob-into-azure-sql-database.aspx#StepByStep
