@@ -136,21 +136,10 @@
 2019/01/31 腊月二十六
 今天我的大馋猫去旧金山的公司面试了，我一个人在家，有些小激动也有些失落，还好他两天就回家了，这是自己很好的成长期，珍惜吧～
 
-The whole dataset is 389 providers and 1610 pairs (collaboration number). It was filtered by 25/125 shared encounters from the original dataset 
-with 1002 providers and 34700+ pairs. The score of pairs are changed into integers and loaded as weight, and the single providers are loaded into Gephi as nodes.
-The layout of the nodes and edges in the figure were implemented by a 3-step-process. First, we applied the Force Atlas layout. It is a force-detected algorithm
-that considers edge weights to determine the strength of a relationship between 2 connected nodes. Then we applied the Fruchterman Reingold layout. It is an algorithm 
+Yes. Someone pass away and new life keep born 
 
-
-Reference 
-1. 
-2. Fruchterman, T. M. J., & Reingold, E. M. (1991). Graph Drawing by Force-Directed Placement. Software: Practice and Experience, 21(11)
-
-
-Three places to be confirmed
-1. the numbers occurred in the paragraph especially the whole dataset
-2. whether to include the detailed description of the 2 algorithms
-3. 
+live in our heart
+treature every moment with family and friends.I actually hav eno idea why Uber refused my darling by I felt super diappointed and not less than him. I believe. My disappointment is due to many reasons and it is sophiticated.
 
 
 
