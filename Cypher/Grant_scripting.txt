@@ -1,0 +1,16 @@
+
+The whole dataset is 389 providers and 1610 pairs (collaboration number). It was filtered by 25/125 shared encounters from the original dataset 
+with 1002 providers and 34700+ pairs. The score of pairs are changed into integers and loaded as weight, and the single providers are loaded into Gephi as nodes.
+The layout of the nodes and edges in the figure were implemented by a 3-step-process. First, we applied the Force Atlas layout. It is a force-detected algorithm
+that considers edge weights to determine the strength of a relationship between 2 connected nodes. Then we applied the Fruchterman Reingold layout. It is an algorithm 
+
+
+Reference 
+1. 
+2. Fruchterman, T. M. J., & Reingold, E. M. (1991). Graph Drawing by Force-Directed Placement. Software: Practice and Experience, 21(11)
+
+
+Three places to be confirmed
+1. the numbers occurred in the paragraph especially the whole dataset
+2. whether to include the detailed description of the 2 algorithms
+3. 
