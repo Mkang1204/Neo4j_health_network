@@ -12,3 +12,8 @@ match pat = (p1:provider)-[w1:works_on]-(e:encounter)-[w2:works_on]-(p2:provider
 with p1,w1,w2,p2,count(e) as cnt
 where cnt >=10
 return *
+  
+  
+--Figure 1b looks closest. Many of the titles are difficult to read - maybe two anesthesiology residents, a number of radiologists, 
+--a pharmacist (far left) and two NMH physicians (attendings? residents?) are the major players? 
+--   Does a network of low-performing team members look similar or different?
