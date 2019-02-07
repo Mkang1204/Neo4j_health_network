@@ -32,3 +32,9 @@ https://www.feinberg.northwestern.edu/researchday/showItem.php?id=162276
 
 10. Azure storage and Sql database
 https://social.technet.microsoft.com/wiki/contents/articles/52061.t-sql-bulk-insert-azure-csv-blob-into-azure-sql-database.aspx#StepByStep
+
+
+11. Azure data studio and vs code addons
+
+12. Love data week https://sites.northwestern.edu/lovedataweek/contest/
+open data https://data.cityofevanston.org/
