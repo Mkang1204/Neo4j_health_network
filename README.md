@@ -35,6 +35,7 @@ https://social.technet.microsoft.com/wiki/contents/articles/52061.t-sql-bulk-ins
 
 
 11. Azure data studio and vs code addons
+https://cloudblogs.microsoft.com/sqlserver/2018/09/25/azure-data-studio-for-sql-server/
 
 12. Love data week https://sites.northwestern.edu/lovedataweek/contest/
 open data https://data.cityofevanston.org/
