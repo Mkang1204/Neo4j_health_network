@@ -39,3 +39,9 @@ https://cloudblogs.microsoft.com/sqlserver/2018/09/25/azure-data-studio-for-sql-
 
 12. Love data week https://sites.northwestern.edu/lovedataweek/contest/
 open data https://data.cityofevanston.org/
+
+13. paper
+a. https://www.biorxiv.org/content/biorxiv/early/2015/03/20/016758.full.pdf
+b. https://biodatamining.biomedcentral.com/articles/10.1186/s13040-016-0102-8
+c. https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=473268
+d. 
