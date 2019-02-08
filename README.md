@@ -32,7 +32,7 @@ https://www.feinberg.northwestern.edu/researchday/showItem.php?id=162276
 
 10. Azure storage and Sql database
 https://social.technet.microsoft.com/wiki/contents/articles/52061.t-sql-bulk-insert-azure-csv-blob-into-azure-sql-database.aspx#StepByStep \
-## debug SSMS csv import \
+## debug SSMS csv import 
 https://www.youtube.com/watch?v=wozqnFbjyYc
 
 
