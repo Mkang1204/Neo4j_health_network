@@ -47,3 +47,7 @@ a. https://www.biorxiv.org/content/biorxiv/early/2015/03/20/016758.full.pdf
 b. https://biodatamining.biomedcentral.com/articles/10.1186/s13040-016-0102-8
 c. https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=473268
 d. 
+
+
+14. Machine Learning Algorithms
+https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
