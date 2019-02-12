@@ -57,4 +57,6 @@ https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
 https://docs.microsoft.com/en-us/azure/storage/common/storage-client-side-encryption-python?toc=%2fazure%2fstorage%2fqueues%2ftoc.json
 * Encrypting Personal Identifiers
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1070001/pdf/hsresearch00052-0115.pdf
+* 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1479909/
 
