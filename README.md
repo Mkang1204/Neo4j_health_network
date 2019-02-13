@@ -61,7 +61,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1070001/pdf/hsresearch00052-0115.pd
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1479909/
 
 16. Graph API 
-a. Neo4j playground https://communityapi.neo4jlabs.com/
-b. 
+a. Neo4j playground https://communityapi.neo4jlabs.com/ \
+b. Fullstack GraphQL: the GRANDstack – Will Lyon
+ https://www.youtube.com/watch?v=xXLto-RJtYc \
 c. Neo4j applications : Graph Gallery, Neo4j Bloom, ETL, Halin
 
