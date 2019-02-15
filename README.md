@@ -69,4 +69,5 @@ a. Neo4j playground https://communityapi.neo4jlabs.com/ \
 b. Fullstack GraphQL: the GRANDstack – Will Lyon
  https://www.youtube.com/watch?v=xXLto-RJtYc \
 c. Neo4j applications : Graph Gallery, Neo4j Bloom, ETL, Halin
-
+d. Gephi blogs \
+https://gephi.wordpress.com/category/plugins/
