@@ -34,3 +34,47 @@ class Solution:
                     l = mid + 1
                 else:
                     r = mid - 1
+            
+            
+
+# additional TwoSum - sorted array - find all and no duplicates
+
+    def twoSum(self, nums:'List[int]', target:'int'] -> 'int':
+            i = 0
+            j = len(nums) - 1
+            while i<j:
+               sum = nums[i] + nums[j]
+               result = []
+
+               if sum == target and [nums[i],nums[j]] not in result:
+                        result = [nums[i],nums[j]]
+               elif sum < target:
+                        i += 1
+               else:
+                        j -= 1
+               
+                          
+               
+                        
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
