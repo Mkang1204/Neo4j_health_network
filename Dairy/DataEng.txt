@@ -1,0 +1,68 @@
+Data Engineer (Outward, Inc.)
+Apply now Apply now
+Date: Jan 28, 2019
+
+Location: San Jose, CA, US
+
+Requisition Number: SS-14701
+Area of Interest: Information Technology
+Organization: Corporate
+Brand/Division: Shared Services
+Position Type: Full-time
+
+JOB DESCRIPTION
+
+About Outward, Inc.
+
+Outward, Inc. is based in San Jose, CA and is a wholly owned subsidiary of Williams Sonoma, Inc.
+
+At Outward Inc. our vision is to 'lower the friction' with regards to all aspects of the customer journey for our parent company and our retail customers. We do this by offering new technology solutions that
+
+enable new experiences and top-notch visualizations of their products. We are continuously pushing the boundaries of how 3D and AR/ VR technologies will drive the next generation shopping experience.
+
+Through our portfolio of premium lifestyle brands -- our mission is to deepen consumer connections with the products that matter and deliver an innovative experience.
+
+We are positioned as a technology leader in the visual merchandising space for retail, with a focus on improving customer experiences with next-generation product visualizations.
+
+Come and join a growing team of engineers as we solve technological riddles and push the envelope of what can be done on the web! ( www.outwardinc.com )
+
+Responsibilities
+
+* Work with Engineers, Product Owners, and Designers to understand their data needs
+* Automate frequently requested analyses using Python
+* Evaluate and define critical business metrics and identify new levers to help move these metrics
+* Design and evaluate A/B experiments
+* Monitor key product metrics and identify root causes behind anomalies
+* Build and analyze dashboards and reports
+* Influence product teams through a presentation of data-based recommendations
+* Communicate state of business and experiment results to product teams
+
+REQUIREMENTS AND QUALIFICATIONS
+
+Minimum Qualifications
+
+* Bachelor's degree or equivalent work experience
+* 2+ years of Python development experience
+* 2+ years of SQL (Hive, Oracle, MySQL, PostgreSQL) experience
+* Professional experience using XML
+
+Nice-to-have Qualifications
+
+* 2+ years of experience with data visualization and data-mining
+* Experience analyzing data to identify deliverables, gaps and inconsistencies
+* Experience initiating and driving projects to completion with minimal guidance
+* Experience communicating the results of analyses
+* Experience with AWS services like lambda, Cloud Formation, RDS, EC2, IAM
+
+Outward, Inc. is an Equal Opportunity Employer.
+Outward, Inc. will consider for employment qualified applicants with criminal histories in a manner consistent with the requirements of the California Fair Employment Act (AB 1008), or other applicable state or local laws and ordinances.
+
+#LI-JQ1
+
+Williams-Sonoma, Inc. is an Equal Opportunity Employer.
+
+Williams-Sonoma, Inc. will consider for employment qualified applicants with criminal histories in a manner consistent with the requirements of the San Francisco Fair Chance Ordinance, or other applicable state or local laws and ordinances.
+
+Nearest Major Market: San Jose 
+Nearest Secondary Market: Palo Alto 
+Job Segment: Database, Developer, Merchandising, Oracle, Engineer, Technology, Retail, Engineering
