@@ -31,6 +31,12 @@ SELECT row_id, subject_id, hadm_id, chartdate, charttime, spec_itemid, spec_type
 	FROM mimiciii.microbiologyevents;
 SELECT row_id, subject_id, hadm_id, itemid, charttime, value, valuenum, valueuom, flag
 	FROM mimiciii.labevents;
+	
+	
+	
+	-- check space of a database
+SELECT table_schema "Data Base Name", sum( data_length + index_length ) / 1024 / 1024 "Data Base Size in MB" 
+FROM information_schema.TABLES GROUP BY table_schema ; 
   
   
   
