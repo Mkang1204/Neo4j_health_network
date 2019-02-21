@@ -1,0 +1,6 @@
+TO review:
+1. A/B testing - **Thursday & Friday**
+2. Data structure with python (package)
+3. MYSQL getting reports (data feedback) Sunday
+4. Hive Monday
+5. XML basics Tuesday
