@@ -38,5 +38,22 @@ SELECT row_id, subject_id, hadm_id, itemid, charttime, value, valuenum, valueuom
 SELECT table_schema "Data Base Name", sum( data_length + index_length ) / 1024 / 1024 "Data Base Size in MB" 
 FROM information_schema.TABLES GROUP BY table_schema ; 
   
-  
+SELECT row_id, subject_id, hadm_id, admittime, dischtime, deathtime, religion
+	from mimiciii.admissions
+	group by religion, row_id
+	order by religion;
+	
+select religion, count(row_id) 
+	from mimiciii.admissions
+-- 	where religion like 'C%'
+	group by religion
+	order by religion;
+	
+-- exporting table
+COPY mimiciii.admissions TO '~/Box/Downloads/products_199.csv' WITH (FORMAT CSV, HEADER);
+
+--saving the result of a query
+Copy (Select * From foo) To '/tmp/test.csv' With CSV DELIMITER ',';
+
+
   
