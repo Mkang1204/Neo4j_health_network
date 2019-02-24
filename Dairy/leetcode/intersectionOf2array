@@ -1,0 +1,40 @@
+class Solution:
+    def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        # check the length of each array
+        # select the shorter array to put the non-repeated number into the longer array
+        # the rest of the shorter array are the intersection part
+        # check duplicates at the same time
+        # if nums1 == nums2:
+        #     return nums1
+        
+        l1 = len(nums1) - 1
+        l2 = len(nums2) - 1
+        nums = []
+        result = []
+        j = 0
+        if l1 <= l2:
+            for i in range(0,l1+1):
+                if nums1[i] in nums2:
+                    nums.append(nums1[i])
+                    j+=1
+                
+        else:
+            for i in range(0,l2+1):
+                if nums2[i] in nums1:
+                    nums.append(nums2[i])
+                    j+=1
+
+        
+        n = 0
+
+        
+        for cnt in range(0,len(nums)):
+            if nums[cnt] not in result:
+                result.append(nums[cnt])
+                n+=1
+        return result
+    
+    # 20190223 didn't pass [1], [1] case
+    # don't forget range(0,len) -> generates len -1 
+    # for loop doesn't need i+=1
+        #Solution2 use hashset -> time complexity is Om + On
