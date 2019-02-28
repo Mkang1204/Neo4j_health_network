@@ -55,5 +55,9 @@ COPY mimiciii.admissions TO '~/Box/Downloads/products_199.csv' WITH (FORMAT CSV,
 --saving the result of a query
 Copy (Select * From foo) To '/tmp/test.csv' With CSV DELIMITER ',';
 
+-- filtering 9 patients randomly from 50000+ patients (1 sec and 21000+records)
+  set search_path to mimiciii;
 
-  
+select * from admissions, patients, labevents, microbiologyevents 
+where admissions.subject_id = patients.subject_id and admissions.subject_id = labevents.subject_id 
+and admissions.subject_id = microbiologyevents.subject_id and admissions.subject_id in (1, 5, 10, 50, 100, 500, 1000, 5000, 10000);
