@@ -63,6 +63,6 @@ where admissions.subject_id = patients.subject_id and admissions.subject_id = la
 and admissions.subject_id = microbiologyevents.subject_id and admissions.subject_id in (1, 5, 10, 50, 100, 500, 1000, 5000, 10000);
 
 -- below didn't work but can use the download button
---copy (select * from admissions, patients, labevents, microbiologyevents 
---where admissions.subject_id = patients.subject_id and admissions.subject_id = labevents.subject_id 
--- and admissions.subject_id = microbiologyevents.subject_id and admissions.subject_id in (1, 5, 10, 50, 100, 500, 1000, 5000, 10000)) to ('~/Box/⁨NU-SCRIPT⁩/GraphDB/mimicDB/outcome/9patients.csv');
+copy (select * from admissions, patients, labevents, microbiologyevents 
+where admissions.subject_id = patients.subject_id and admissions.subject_id = labevents.subject_id 
+and admissions.subject_id = microbiologyevents.subject_id and admissions.subject_id in (1, 5, 10, 50, 100, 500, 1000, 5000, 10000)) to ('~/Box/⁨NU-SCRIPT⁩/GraphDB/mimicDB/outcome/9patients.csv');
