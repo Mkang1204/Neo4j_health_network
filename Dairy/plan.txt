@@ -7,6 +7,7 @@ TO review:
 
 
 1. company detailed info
-2. ask 2 questions
+2. ask 2 questions - career path/next steps
 3. get ready for python easy and data engineer basics
 4. sql questions
+5. XML with python
