@@ -1,3 +1,12 @@
+interview questions:
+
+Coding test has some math questions, some MATLAB coding questions and then coding in one language you select.
+- Very detailed questions about using MATLAB. Need to be very familiar with functions.  
+
+- General phone call and then a coding test. Half questions using MATLAB, half questions using a programming language. Candidates can choose programming language. Multiple choices, fill-in-blanks, and coding.
+
+- Tested on python iterators, map functions.  
+
 references: 
 1. 在人工智能时代，MATLAB 还是曾经的那个“高级计算器”么？
 https://www.leiphone.com/news/201704/zzQfGKhv2SZJJ3gH.html?agt=2
