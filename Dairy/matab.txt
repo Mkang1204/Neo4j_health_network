@@ -40,7 +40,7 @@ To do list:
 2. 豆瓣经验
 3. 面试问题集锦 - Matlab, Simulink, 
 4. 简历
-5. 自我简介
+5. 自我简介- Elevator pitch
 6. 为什么这个公司，这个职位
 7. 
 
@@ -76,5 +76,50 @@ background 问题：
 
 
 
+Application Engineer - Data Science
 
+Job Summary
+Are you passionate about MATLAB? Do you enjoy sharing your passion with others? Do you enjoy working with customers? Do you enjoy solving technical and business challenges? If so, you may be a perfect fit for an Application Engineering role.
+
+As an Application Engineer, you will act as a link between MathWorks and our customers across a range of industries. You will work closely with customers to uncover obstacles in their engineering process and where MathWorks tools will add value in their development cycle. You will collaborate with MathWorks teams across Sales, Marketing, and Development to build compelling technical examples. You will demonstrate how to use MATLAB, and MathWorks tools to design and develop algorithms and deploy systems.
+
+Application Engineers can develop broad technical expertise across many MathWorks products, go deep into technology areas of interest, expand their industry knowledge, work on cross functional teams, and advance into leadership roles throughout the MathWorks.
+
+Come play a vital role in the success of the MathWorks.
+
+This non-commissioned position is based in Santa Clara, California. Travel is typically 30-40% and is generally not on the weekend.
+
+Responsibilities
+Provide technical pre-sales support.
+Assist sales account managers in understanding and synthesizing customer requirements.
+Partner with sales account manager to build technical sales strategies.
+Work with prospective customers to understand their workflow.
+Prepare and deliver presentations, demonstrations, and application-specific examples in customer meetings, seminars, and other public events.
+Conduct extended evaluations to promote large-scale adoption of MathWorks tools. This may include multiple engagements with customers, both pre and post sales, to ensure their success.
+Work closely with MathWorks Development and Marketing organizations to further improve products, identify new application areas, and develop compelling messages.
+Establish rapport and credibility with our customers across multiple hierarchy levels. Build champion users and supporters of our solutions.
+Minimum Qualifications
+A bachelor's degree and 7 years of professional work experience (or a master's degree and 5 years of professional work experience, or a PhD degree) is required.
+Additional Qualifications
+Required:
+
+Experience with (and enthusiasm for!) MATLAB is essential; experience with a broad set of MathWorks products is a plus
+Exceptional verbal and written communication skills in both a group and individual settings
+Excellent presentation skills (or a strong motivation to learn them)
+Highly motivated to work directly with customers to help them understand how MATLAB products are used to solve their engineering and business problems
+Continuous learner
+Pluses:
+
+One or more of the following interests: advanced statistics, optimization, machine learning/deep learning, or parallel computing
+
+Other programming languages, e.g.  Python, R, Java, C/C++ or .NET
+
+Cloud and big data tools, e.g. AWS, Azure, Hadoop Distributed File System, Spark, SQL, JSON, etc.
+
+Distributed/parallel computing and/or GPUs for numerical computation
+
+Why MathWorks?
+It’s the chance to collaborate with bright, passionate people. It’s contributing to software products that make a difference in the world. And it’s being part of a company with an incredible commitment to doing the right thing – for each individual, our customers, and the local community.
+
+MathWorks develops MATLAB and Simulink, the leading technical computing software used by engineers and scientists. The company employs 4000 people in 16 countries, with headquarters in Natick, Massachusetts, U.S.A. MathWorks is privately held and has been profitable every year since its founding in 1984.
 
