@@ -35,14 +35,15 @@ Cons:
 
 
 
-To do list:
+To do list: 
+Apply online
 1. 一亩三分地 - 曼斯沃克应用工程师 - 信息系统
 2. 豆瓣经验
 3. 面试问题集锦 - Matlab, Simulink, 
 4. 简历
 5. 自我简介- Elevator pitch
 6. 为什么这个公司，这个职位
-7. 
+7. programming concepts extensively 
 
 **Mathworks**
 # What's life like at MathWorks?
