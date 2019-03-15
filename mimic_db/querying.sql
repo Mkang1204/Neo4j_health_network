@@ -66,3 +66,18 @@ and admissions.subject_id = microbiologyevents.subject_id and admissions.subject
 copy (select * from admissions, patients, labevents, microbiologyevents 
 where admissions.subject_id = patients.subject_id and admissions.subject_id = labevents.subject_id 
 and admissions.subject_id = microbiologyevents.subject_id and admissions.subject_id in (1, 5, 10, 50, 100, 500, 1000, 5000, 10000)) to ('~/Box/⁨NU-SCRIPT⁩/GraphDB/mimicDB/outcome/9patients.csv');
+
+											
+select * from mimiciii.microbiologyevents
+	where org_name like 'PSEUDOMONAS%';
+
+
+--PSEUDOMONAS AERUGINOSA
+--Successfully run. Total query runtime: 167 msec.
+--28926 rows affected.
+
+--PSEUDOMONAS%
+--29047 rows affected.
+
+set search_path to mimiciii;
+select * from noteevents;
