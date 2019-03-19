@@ -72,6 +72,21 @@ select * from mimiciii.microbiologyevents
 	where org_name like 'PSEUDOMONAS%';
 
 
+--2019-03-19											
+set search_path to mimiciii;
+select * from mimiciii.microbiologyevents
+	where org_name like 'PSEUDOMONAS%'; --
+	
+select count(distinct subject_id) from mimiciii.microbiologyevents
+where org_name like 'PSEUDOMONAS%'; --1532
+
+select count(distinct subject_id) from mimiciii.microbiologyevents
+where org_name like 'PSEUDOMONAS%'; --
+
+select distinct subject_id, org_name from mimiciii.microbiologyevents
+where org_name like 'PSEUDOMONAS%'
+group by subject_id, org_name; -- 
+											
 --PSEUDOMONAS AERUGINOSA
 --Successfully run. Total query runtime: 167 msec.
 --28926 rows affected.
