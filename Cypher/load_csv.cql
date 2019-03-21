@@ -34,5 +34,31 @@ with avg(c.s) as avg, p
        return p
        where avg > 1.1
 
+-- create nodes 2019-03-21 starting with genomics data
+merge (c:cell {name:'AM01'})
+return c;
+       
+match (c:cell {name:'AM01'})
+       delete c;
+       
+-- load in with new  --- not working M;M relationship
+       load csv with headers from 'file:///pilot1.csv' as row
+with distinct row.`Gene_Symbol` as gene, row.`Pilot_AM01` as AM01,row.`Pilot_AM02` as AM02, row.`Pilot_AM03` as AM03, row.`Pilot_AM04` as AM04, row.`Pilot_AM05` as AM05, row.`Pilot_AM06` as AM06, row.`Pilot_AM07` as AM07, row.`Pilot_AM08` as AM08, row.`Pilot_AM09` as AM09, row.`Pilot_AM10` as AM10
+merge (g:gene {name:gene})
+merge (c:cell)
+merge (c)-[e1:expresses_gene_num {num:AM01}]->(g)
+merge (c)-[e2:expresses_gene_num {num:AM02}]->(g)
+merge (c)-[e3:expresses_gene_num {num:AM03}]->(g)
+merge (c)-[e4:expresses_gene_num {num:AM04}]->(g)
+merge (c)-[e5:expresses_gene_num {num:AM05}]->(g)
+merge (c)-[e6:expresses_gene_num {num:AM06}]->(g)
+merge (c)-[e7:expresses_gene_num {num:AM07}]->(g)
+merge (c)-[e8:expresses_gene_num {num:AM08}]->(g)
+merge (c)-[e9:expresses_gene_num {num:AM09}]->(g)
+merge (c)-[e10:expresses_gene_num {num:AM10}]->(g)
+return gene;
 
+	   -- check number is right ot not
+match (g:gene) return count(g)	--99
+	   
        
