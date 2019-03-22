@@ -88,3 +88,7 @@ return gene;
        -- then change the nums into integer type
 match ()-[e:EXPRESSES_GENE_NUM]-()
 set e.num = toInteger(e.num)
+       
+       -- query results
+match ()-[e:EXPRESSES_GENE_NUM]-(g:gene {name:'ST7'})
+return sum(e.num)
