@@ -61,7 +61,7 @@ return gene;
 	   -- check number is right ot not
 match (g:gene) return count(g)	--99
 	   
--- load the gene and cell name first 
+-- load the gene and cell name first -- and then load the nums aas properties using set
 	   load csv with headers from 'file:///pilot1.csv' as row
 with distinct row.`Gene_Symbol` as gene, row.`Pilot_AM01` as AM01,row.`Pilot_AM02` as AM02, row.`Pilot_AM03` as AM03, row.`Pilot_AM04` as AM04, row.`Pilot_AM05` as AM05, row.`Pilot_AM06` as AM06, row.`Pilot_AM07` as AM07, row.`Pilot_AM08` as AM08, row.`Pilot_AM09` as AM09, row.`Pilot_AM10` as AM10
 merge (g:gene {name:gene})
@@ -75,3 +75,16 @@ merge (:cell {name:'AM07'})
 merge (:cell {name:'AM08'})
 merge (:cell {name:'AM09'})
 merge (:cell {name:'AM10'})
+       -- load in the nums
+load csv with headers from 'file:///pilot1.csv' as row
+with distinct row.`Gene_Symbol` as gene, row.`Pilot_AM01` as AM01,row.`Pilot_AM02` as AM02, row.`Pilot_AM03` as AM03, row.`Pilot_AM04` as AM04, row.`Pilot_AM05` as AM05, row.`Pilot_AM06` as AM06, row.`Pilot_AM07` as AM07, row.`Pilot_AM08` as AM08, row.`Pilot_AM09` as AM09, row.`Pilot_AM10` as AM10
+merge (g:gene {name:gene})
+merge (c:cell {name:'AM01'})-[e:EXPRESSES_GENE_NUM]-(g)
+set e.num = AM01
+return gene;
+
+       
+       -- load the cells info one by one in cypher
+       -- then change the nums into integer type
+match ()-[e:EXPRESSES_GENE_NUM]-()
+set e.num = toInteger(e.num)
