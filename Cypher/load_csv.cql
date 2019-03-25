@@ -92,3 +92,11 @@ set e.num = toInteger(e.num)
        -- query results
 match ()-[e:EXPRESSES_GENE_NUM]-(g:gene {name:'ST7'})
 return sum(e.num)
+
+				 
+	-- add more properties
+ load csv with headers from 'file:///pilot1.csv' as row
+with distinct row.`Symbol` as id, row.`Gene_Symbol` as gene
+merge (g:gene {name:gene})
+set g.ID = id
+return gene;
