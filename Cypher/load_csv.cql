@@ -105,7 +105,7 @@ merge (g:gene {name:gene})
 set g.ID = id
 return gene;
        
-	-- load from online files       
+	-- load from online files       --Pilot1_RNAseq_final_count.csv
 load csv with headers from 'https://sascripttest.file.core.windows.net/script-test/TestData/Genomics_data/Pilot1_RNAseq_final_count.csv' as row
 with row.`Pilot_AM01` as AM01, row.`Gene_Symbol` as gene
 merge (g:gene {name:gene})
