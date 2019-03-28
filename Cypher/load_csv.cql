@@ -92,6 +92,10 @@ set e.num = toInteger(e.num)
        -- query results
 match ()-[e:EXPRESSES_GENE_NUM]-(g:gene {name:'ST7'})
 return sum(e.num)
+	-- filter 2			 
+match p = (c1)-[e1:EXPRESSES_GENE_NUM]->(g:gene)<-[e2:EXPRESSES_GENE_NUM]-(c2)
+where c1.name = 'AM01' and e1.num > 100 and e2.num > 100 and c2.name = 'Opt_10ng_1'
+return p				 
 
 				 
 	-- add more properties
