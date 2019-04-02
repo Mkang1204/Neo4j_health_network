@@ -112,3 +112,18 @@ merge (g:gene {name:gene})
 merge (c:cell {name:'AM01'})-[e:EXPRESSES_GENE_NUM]-(g)
 set e.num = AM01
 return e;
+       
+       
+       
+       
+       -- load more properties into the relationship
+load csv with headers from 'file:///CPM_Pilot1.csv' as row
+merge (g:gene {name:row.`Gene_Symbol`})
+merge (c:cell {name:'AM01'})
+merge (c)-[e:EXPRESSES_GENE_NUM]->(g)
+set e.cpm_num = row.`Pilot_AM01`
+return e
+       
+       
+       -- filter by AM01
+MATCH p=(c:cell {name:'AM01'})-[r:EXPRESSES_GENE_NUM]->() RETURN p LIMIT 25
