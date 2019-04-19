@@ -293,7 +293,8 @@ anyway 或许我可以参加一下明天的面试，然后看一下会不会有�
 
 
 
-
+At the beginning I felt stressful working on multiple projects in a field I am brand new to. But thanks to my supervisor encouraged me and adjusted my work focus timely and I focus on one large project at one time. It is typical the case that in a large project that envolves 50 scientist, efficient collaboration is a big problem. Not everyone has the time to read the book of grant proposal carefully. As a member of the data management core, I felt that I have the duty to do some educational work. to facilitate the group with
+Even though I was hired for building the graph database and data pipeline. 
 
 
 
