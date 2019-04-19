@@ -11,3 +11,15 @@ TO review:
 3. get ready for python easy and data engineer basics
 4. sql questions
 5. XML with python
+
+
+Goals for 2019-2020
+1. Assist Modeling Core with Computing infrastructure testing and create instructions documents.
+
+2. Perform data management on Clinical data from EDW and Genomic data.
+
+3. Design and build up Graph database based on existing data and apply machine learning algorithms to find potential patterns.
+
+4. Finish building the SCRIPT public website.
+
+5. Make sure the study wiki is up to date
