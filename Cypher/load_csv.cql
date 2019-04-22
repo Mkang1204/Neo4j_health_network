@@ -138,3 +138,19 @@ merge (c:cell {name:'AM02'})
 merge (c)-[e:EXPRESSES_GENE_NUM]-(g)
 set e.num = AM02
 return gene;
+       
+       --2019-04-22 error occurs: when importing fpkm, num disappears - to reload num:
+load csv with headers from 'file:///Pilot1_RNAseq_final_count.csv' as row
+with row.`Pilot_AM01` as num, row.Gene_Symbol as gene, row.Symbol as ID
+merge (g:gene {name:gene, ID:ID})
+merge (c:cell {name:'AM01'})
+merge (c)-[e:EXPRESSES_GENE_NUM]-(g)
+set e.num = toInteger(num)
+return gene;
+       
+       --2019-04-22 check if the properties are enough
+       
+MATCH p=(c:cell)-[r:EXPRESSES_GENE_NUM]->() where c.name = 'AM01' RETURN p LIMIT 25
+       
+       
+       
