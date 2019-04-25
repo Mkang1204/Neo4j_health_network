@@ -89,13 +89,7 @@ return gene;
 match ()-[e:EXPRESSES_GENE_NUM]-()
 set e.num = toInteger(e.num)
        
-       -- query results
-match ()-[e:EXPRESSES_GENE_NUM]-(g:gene {name:'ST7'})
-return sum(e.num)
-	-- filter 2			 
-match p = (c1)-[e1:EXPRESSES_GENE_NUM]->(g:gene)<-[e2:EXPRESSES_GENE_NUM]-(c2)
-where c1.name = 'AM01' and e1.num > 100 and e2.num > 100 and c2.name = 'Opt_10ng_1'
-return p				 
+				 
 
 				 
 	-- add more properties
@@ -123,12 +117,23 @@ merge (c:cell {name:'AM01'})
 merge (c)-[e:EXPRESSES_GENE_NUM]->(g)
 set e.cpm_num = row.`Pilot_AM01`
 return e
+  
+       
        
        
        -- filter by AM01
 MATCH p=(c:cell {name:'AM01'})-[r:EXPRESSES_GENE_NUM]->() RETURN p LIMIT 25
 	 
-	 
+       -- query results
+match ()-[e:EXPRESSES_GENE_NUM]-(g:gene {name:'ST7'})
+return sum(e.num)
+	-- filter 2			 
+match p = (c1)-[e1:EXPRESSES_GENE_NUM]->(g:gene)<-[e2:EXPRESSES_GENE_NUM]-(c2)
+where c1.name = 'AM01' and e1.num > 100 and e2.num > 100 and c2.name = 'Opt_10ng_1'
+return p
+				 
+				 
+				 
 	 
 	 -- reload num removed by loading cpm_num in
 load csv with headers from 'file:///Pilot1_RNAseq_final_count.csv' as row
