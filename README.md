@@ -71,3 +71,7 @@ b. Fullstack GraphQL: the GRANDstack – Will Lyon
 c. Neo4j applications : Graph Gallery, Neo4j Bloom, ETL, Halin \
 d. Gephi blogs \
 https://gephi.wordpress.com/category/plugins/
+
+17. Bulk import from .csv or json
+
+https://neo4j.com/blog/bulk-data-import-neo4j-3-0/
