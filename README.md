@@ -22,6 +22,8 @@ http://thepoliticsofsystems.net/category/social-networks/
 
 5. Visualizing collaborative electronic health record usage for hospitalized patients with heart failure 
 https://academic.oup.com/jamia/article/22/2/299/696891
+An Outcome-Weighted Network Model for Characterizing Collaboration
+https://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0163861#citedHeader
 
 6. Data Science playground
 https://www.kaggle.com/
