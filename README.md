@@ -57,6 +57,8 @@ d.
 
 14. Machine Learning Algorithms
 https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
+Machine learning in Graph
+http://snap.stanford.edu/deepnetbio-ismb/slides/deepnetbio-part2-gcn.pdf
 
 15. Encryption
 * Client-Side Encryption with Python for Microsoft Azure Storage
