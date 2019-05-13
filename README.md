@@ -22,6 +22,8 @@ http://thepoliticsofsystems.net/category/social-networks/
 
 5. Visualizing collaborative electronic health record usage for hospitalized patients with heart failure 
 https://academic.oup.com/jamia/article/22/2/299/696891
+An Outcome-Weighted Network Model for Characterizing Collaboration
+https://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0163861#citedHeader
 
 6. Data Science playground
 https://www.kaggle.com/
@@ -55,6 +57,8 @@ d.
 
 14. Machine Learning Algorithms
 https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
+Machine learning in Graph
+http://snap.stanford.edu/deepnetbio-ismb/slides/deepnetbio-part2-gcn.pdf
 
 15. Encryption
 * Client-Side Encryption with Python for Microsoft Azure Storage
@@ -71,3 +75,9 @@ b. Fullstack GraphQL: the GRANDstack – Will Lyon
 c. Neo4j applications : Graph Gallery, Neo4j Bloom, ETL, Halin \
 d. Gephi blogs \
 https://gephi.wordpress.com/category/plugins/
+
+17. Bulk import from .csv or json
+https://neo4j.com/blog/bulk-data-import-neo4j-3-0/
+
+18. web design reference
+https://www.northwestern.edu/templates/fonts/index.html
