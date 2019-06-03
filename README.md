@@ -87,3 +87,6 @@ https://www.northwestern.edu/templates/fonts/index.html
 
 http://107.170.69.23:7474/browser/
 graphql/graphql
+
+20 Graph algorithms + Gephi on Medium
+https://towardsdatascience.com/community-detection-of-survey-responses-based-on-pearson-correlation-coefficient-with-neo4j-a522e2264c1c
