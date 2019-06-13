@@ -158,4 +158,8 @@ return gene;
 MATCH p=(c:cell)-[r:EXPRESSES_GENE_NUM]->() where c.name = 'AM01' RETURN p LIMIT 25
        
        
-       
+-- 2019-06-13 import project2 data (bin_strain/genome relationship)
+load csv with headers from "file:///clustAGE_trans.csv" as csv
+with distinct csv.`genome` as id
+create (b:Bin {ID: id})
+return b
