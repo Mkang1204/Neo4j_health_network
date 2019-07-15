@@ -163,3 +163,11 @@ load csv with headers from "file:///clustAGE_trans.csv" as csv
 with distinct csv.`genome` as id
 create (b:Bin {ID: id})
 return b
+
+	
+-- 2019-07-15 load meta genoomics data	
+load csv with headers from "file:///shortbred.CARD.counts.csv" as csv
+merge (s:ShortbredCARD {feature:csv.`Features`})
+merge (m:MetaGenomeSample {ID:csv.`features_sample`})
+merge (m)-[e:EXPRESSES_META_GENOMICS {num: csv.`count`}]-(s)
+return e
