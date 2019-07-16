@@ -171,3 +171,22 @@ merge (s:ShortbredCARD {feature:csv.`Features`})
 merge (m:MetaGenomeSample {ID:csv.`features_sample`})
 merge (m)-[e:EXPRESSES_META_GENOMICS {num: toFloat(csv.`count`)}]-(s) -- counts should be float & hits should be integer
 return e
+						   
+						   
+						   
+-- replace the old relationbship with a new one
+MATCH (n:User {name:"foo"})-[r:REL]->(m:User {name:"bar"})
+CREATE (n)-[r2:NEWREL]->(m)
+// copy properties, if necessary
+SET r2 = r
+WITH r
+DELETE r						   
+						   
+						   
+						   
+						   
+						   
+						   
+						   
+						   
+						   
