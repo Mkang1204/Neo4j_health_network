@@ -180,10 +180,15 @@ CREATE (n)-[r2:NEWREL]->(m)
 // copy properties, if necessary
 SET r2 = r
 WITH r
-DELETE r						   
+DELETE r
+				      
+				    
+--2019-07-25						   
 						   
-						   
-						   
+load csv with headers from "file:///taxa_proportions_stratified.tsv" as line FIELDTERMINATOR '\t'
+merge (ts:TaxaSample {ID:line.`features_sample`})
+merge (t:Taxaptoportions {ID: line.`Taxa_proportions`})
+merge (ts)-[EXPRESSES_TAXA {num:line.`count`}]-(t)						   
 						   
 						   
 						   
