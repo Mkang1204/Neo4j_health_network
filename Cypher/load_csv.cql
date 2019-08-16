@@ -191,7 +191,23 @@ merge (t:Taxaptoportions {ID: line.`Taxa_proportions`})
 merge (ts)-[EXPRESSES_TAXA {num:line.`count`}]-(t)						   
 						   
 						   
-						   
+--2019-08-16 test not worked because of special characters
+load csv with headers from "file:///REDCap/SCRIPTTechCoreV20_DATA_2019-08-14_1544.csv" as line fieldterminator ' '
+with line where line.sort_macroph is not null
+match (n:Sample {id:line.`tc_pt_study_id`})
+set n.macroph = line.`sort_macroph`, n.macroph_num = line.`num_sort_macroph`
+return n
+       
+load csv with headers from "file:///REDCap/SCRIPTTechCoreV20_DATA_2019-08-14_1544.csv" as line fieldterminator ' '
+with line where line.content is not null
+create (n:Sample {id:line.`tc_pt_study_id`, macrophage:line.`sort_macroph`, macroph_num:toInteger(line.`num_sort_macroph)`, nontreg:line.`sort_nontreg`, nontreg_num:toInteger(line.`num_sort_nontreg`), treg:line.`sort_treg`, treg_num:toInteger(line.`num_sort_treg`), cd8:line.`sort_cd8`, cd8_num:toInteger(line.`num_sort_cd8`), cd4:line.`sort_bulk_cd4`, cd4_num:toInteger(line.`num_sort_bulk_cd4`)})
+return n
+       
+       
+-- trying APOC load csv method	    
+	    
+CALL apoc.load.csv('/tmp/test.csv') yield lineNo, map, list
+RETURN *;
 						   
 						   
 						   
