@@ -204,10 +204,14 @@ create (n:Sample {id:line.`tc_pt_study_id`, macrophage:line.`sort_macroph`, macr
 return n
        
        
--- trying APOC load csv method	    
+-- trying APOC load csv method but met with directory not found problem    
 	    
 CALL apoc.load.csv('/tmp/test.csv') yield lineNo, map, list
 RETURN *;
 						   
-						   
+-- old way load csv - filter the one that is null twice
+load csv with headers from "file:///REDCap/SCRIPTTechCoreV20_DATA_2019-08-14_1544.csv" as line //fieldterminator ' '
+with line where line.`sort_nontreg` is not null and line.`num_sort_nontreg` is not null
+merge (n:Sample {id:line.`tc_pt_study_id`, nontreg:line.`sort_nontreg`, nontreg_num:line.`num_sort_nontreg`})
+return n
 						   
