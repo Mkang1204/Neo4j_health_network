@@ -215,10 +215,15 @@ with line where line.`sort_nontreg` is not null and line.`num_sort_nontreg` is n
 merge (n:Sample {id:line.`tc_pt_study_id`, nontreg:line.`sort_nontreg`, nontreg_num:line.`num_sort_nontreg`})
 return n
 						   
--- should use set instead of merge - the old properties stayed
+-- should use set instead of merge - create the nodes first and then add attributes the old properties stayed
+load csv with headers from "file:///REDCap/SCRIPTTechCoreV20_DATA_2019-08-14_1544.csv" as line //fieldterminator ' '
+with line where line.`tc_pt_study_id` is not null
+create (n:Sample)
+set n.id = line.`tc_pt_study_id`
        
 load csv with headers from "file:///REDCap/SCRIPTTechCoreV20_DATA_2019-08-14_1544.csv" as line //fieldterminator ' '
 with line where line.`num_sort_cd8` is not null
 match (n:Sample {id:line.`tc_pt_study_id`})
 set n.cd8_num = line.`num_sort_cd8`
 return n
+       
