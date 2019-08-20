@@ -216,3 +216,9 @@ merge (n:Sample {id:line.`tc_pt_study_id`, nontreg:line.`sort_nontreg`, nontreg_
 return n
 						   
 -- should use set instead of merge - the old properties stayed
+       
+load csv with headers from "file:///REDCap/SCRIPTTechCoreV20_DATA_2019-08-14_1544.csv" as line //fieldterminator ' '
+with line where line.`num_sort_cd8` is not null
+match (n:Sample {id:line.`tc_pt_study_id`})
+set n.cd8_num = line.`num_sort_cd8`
+return n
