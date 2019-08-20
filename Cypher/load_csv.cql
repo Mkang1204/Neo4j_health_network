@@ -215,3 +215,4 @@ with line where line.`sort_nontreg` is not null and line.`num_sort_nontreg` is n
 merge (n:Sample {id:line.`tc_pt_study_id`, nontreg:line.`sort_nontreg`, nontreg_num:line.`num_sort_nontreg`})
 return n
 						   
+-- should use set instead of merge - the old properties stayed
