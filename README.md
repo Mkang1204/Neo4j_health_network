@@ -38,6 +38,9 @@ https://www.feinberg.northwestern.edu/researchday/showItem.php?id=162276
 10. Azure storage and Sql database
 https://social.technet.microsoft.com/wiki/contents/articles/52061.t-sql-bulk-insert-azure-csv-blob-into-azure-sql-database.aspx#StepByStep \
 
+11. Spring data neo4j
+https://www.youtube.com/watch?v=gqCqurf79bM
+
 ### Debug SSMS csv import 
 https://www.youtube.com/watch?v=wozqnFbjyYc
 
